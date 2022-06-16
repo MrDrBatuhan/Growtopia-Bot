@@ -254,7 +254,7 @@ void GrowtopiaBot::OnAction(string command)
 	//SendPacket(2, "action|input\n|text|Why do you "+command.substr(1, command.length())+"?", peer);
 }
 
-void GrowtopiaBot::SetHasGrowID(int state, string name, string password)
+void GrowtopiaBot::SetHasGrowID(int state, string name)
 {
 
 }
